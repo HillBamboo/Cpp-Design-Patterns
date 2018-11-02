@@ -1,4 +1,4 @@
-
+// 本文件包含的都是稳定部分
 //抽象类
 class ISplitter{
 public:

@@ -1,21 +1,9 @@
-
-
+// 本文件包含的都是变化的部分 
 //具体类
-class BinarySplitter : public ISplitter{
-    
-};
-
-class TxtSplitter: public ISplitter{
-    
-};
-
-class PictureSplitter: public ISplitter{
-    
-};
-
-class VideoSplitter: public ISplitter{
-    
-};
+class BinarySplitter : public ISplitter{};
+class TxtSplitter: public ISplitter{};
+class PictureSplitter: public ISplitter{};
+class VideoSplitter: public ISplitter{};
 
 //具体工厂
 class BinarySplitterFactory: public SplitterFactory{
