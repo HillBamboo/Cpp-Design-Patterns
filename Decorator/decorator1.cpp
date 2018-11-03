@@ -21,7 +21,7 @@ public:
         //写文件流
     }
 
-};
+
 
 class NetworkStream :public Stream{
 public:
